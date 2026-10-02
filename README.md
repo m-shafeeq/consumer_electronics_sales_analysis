@@ -51,7 +51,7 @@ Correlation with PurchaseIntent: gender 0.50, satisfaction 0.39, age 0.29, price
 
 | | |
 |---|---|
-| ![Category distribution](images/category_distribution.png) | ![Brand distribution](images/brand_distribution.png) |
+| ![category_distribution.png](images/category_distribution.png) | ![Brand distribution](images/brand_distribution.png) |
 | ![Age distribution](images/age_distribution.png) | ![Intent by satisfaction](images/intent_by_satisfaction.png) |
 
 ![Correlation heatmap](images/correlation_heatmap.png)
