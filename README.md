@@ -49,12 +49,7 @@ Brands sell several product types across several brands, but it is unclear which
 
 Correlation with PurchaseIntent: gender 0.50, satisfaction 0.39, age 0.29, price -0.02, purchase frequency about 0.
 
-| | |
-|---|---|
-| ![category_distribution.png](images/category_distribution.png) | ![Brand distribution](images/brand_distribution.png) |
-| ![Age distribution](images/age_distribution.png) | ![Intent by satisfaction](images/intent_by_satisfaction.png) |
 
-![Correlation heatmap](images/correlation_heatmap.png)
 
 ## Repository Structure
 
@@ -66,16 +61,6 @@ Correlation with PurchaseIntent: gender 0.50, satisfaction 0.39, age 0.29, price
 └── README.md
 ```
 
-## How to Run
-
-```bash
-git clone <your-repo-url>
-cd <your-repo-name>
-pip install pandas numpy matplotlib seaborn jupyter
-jupyter notebook consumer_electronics_sales_analysis_prediction.ipynb
-```
-
-The notebook loads the CSV from `/content/` (the Google Colab path). If you run it locally, change `file_path` in the data-loading cell to `consumer_electronics_sales_data.csv`.
 
 ## Future Scope
 
